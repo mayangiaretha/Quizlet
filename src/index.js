@@ -13,13 +13,8 @@ function startQuiz(event) {
   // Save userName to local storage
   localStorage.setItem("userName", userName);
 
-  // Check if the user is on the home page before redirecting
-  const currentPage = window.location.pathname;
-  console.log(currentPage, 'the current page ==================>')
-  if (currentPage.endsWith("index.html") || (currentPage.endsWith(".app"))) {
-    // Redirect to the quiz.html page
-    window.location.href = "quiz.html";
-  }
+  // Redirect to the quiz.html page
+  window.location.href = "quiz.html";
 }
 
 // Event listener for form submission
