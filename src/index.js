@@ -15,7 +15,7 @@ function startQuiz(event) {
 
   // Check if the user is on the home page before redirecting
   const currentPage = window.location.pathname;
-  if (currentPage.endsWith("index.html")) {
+  if (currentPage.endsWith("index.html") || (currentPage.endsWith(".app"))) {
     // Redirect to the quiz.html page
     window.location.href = "quiz.html";
   }
