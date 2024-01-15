@@ -3,18 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Quickfire Quiz</title>
+    <title>QUIZLET</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <div id="quiz-container">
-      <h1>Quickfire Quiz</h1>
-      <div id="question-container"></div>
-      <div id="options-container"></div>
-      <button id="submit-btn" onclick="submitAnswer()">Submit</button>
-      <div id="result-container"></div>
-      <div id="timer">Time: <span id="time">60</span> seconds</div>
+    <div class="quiz-container">
+      <h1>Welcome to the Quickfire Quiz Challenge!</h1>
+      <p>Test your knowledge in just 1 minute with our fast-paced quiz!</p>
+      <form id="quizForm">
+        <label for="userName">Enter your name:</label>
+        <input type="text" id="userName" required />
+        <button type="submit">Start Quiz</button>
+      </form>
     </div>
-    <script src="script.js"></script>
+
+    <script src="index.js"></script>
   </body>
 </html>

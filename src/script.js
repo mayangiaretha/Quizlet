@@ -82,7 +82,7 @@ function startQuiz() {
 
   if (!userName || quizCompleted) {
     alert("Please go back to the home page and start the quiz.");
-    window.location.href = "home.html";
+    window.location.href = "index.html";
     return;
   }
 
@@ -181,6 +181,6 @@ function endQuiz() {
   localStorage.removeItem("userName");
 
   setTimeout(() => {
-    window.location.href = "home.html";
+    window.location.href = "index.html";
   }, 5000);
 }
