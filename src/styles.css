@@ -47,6 +47,7 @@ button.selected {
 }
 #submit-btn {
   margin-top: 15px;
+  display: none;
 }
 button.correct {
   background-color: #34eb5b;
