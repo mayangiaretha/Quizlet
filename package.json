@@ -1,0 +1,15 @@
+{
+  "name": "quiz-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "prettier --write 'src/**/*.{js,css,html}'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^3.2.2"
+  }
+}
